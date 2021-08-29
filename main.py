@@ -40,21 +40,12 @@ async def enviarembed(ctx):
 
   embed.set_image(url='https://sm.ign.com/ign_br/screenshot/default/ending-theme-1536x864_napm.jpg')
 
-
-
   await ctx.send(embed = embed)
-
-
-
-
-
 
 @client.command()
 async def  dado(ctx, numero):
   variavel = random.randint(1,int(numero))
   await ctx.send(f'o numero que caiu foi: {variavel} | muito obrigado por jogar')
-
-
 
 
 client.run('Token')
