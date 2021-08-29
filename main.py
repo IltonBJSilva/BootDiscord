@@ -57,4 +57,4 @@ async def  dado(ctx, numero):
 
 
 
-client.run('ODgwOTgzNzY0MTM2Nzc5Nzk3.YSmOEQ.9IIYD3Cmp5RUmEMx0QsWbvaBvhc')
+client.run('Token')
